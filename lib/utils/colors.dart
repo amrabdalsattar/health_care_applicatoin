@@ -12,6 +12,8 @@ abstract class AppColor {
   static const Color green = Color(0xff027a48);
   static const Color grey = Color(0xff667085);
   static const Color liteGrey = Color(0x44667085);
+  static const Color midGrey = Color(0x15667085);
+  static const Color literGrey = Color(0x0b667085);
   static const Color purple = Color(0xFF363F72);
 
 }

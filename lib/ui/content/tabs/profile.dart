@@ -7,6 +7,6 @@ class Profile extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(color: AppColor.green);
+    return Container(color: AppColor.white);
   }
 }

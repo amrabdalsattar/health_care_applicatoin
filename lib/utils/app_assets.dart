@@ -19,9 +19,9 @@ abstract class AppAssets {
   static const String secondScreenBase = "assets/images/second_screen/";
   static const removal = "${secondScreenBase}removal_2.png";
   static const ellipse = "${secondScreenBase}Ellipse_10.png";
-  static const calo = "${secondScreenBase}Group.png";
-  static const heart = "${secondScreenBase}Icon.png";
-  static const todo = "${secondScreenBase}Icon-1.png";
-  static const duration = "${secondScreenBase}Icon_2.png";
-  static const exercise = "${secondScreenBase}pngwing.png";
+  static const calo = "${secondScreenBase}calo.png";
+  static const heart = "${secondScreenBase}heart.png";
+  static const todo = "${secondScreenBase}todo.png";
+  static const duration = "${secondScreenBase}duration.png";
+  static const exercise = "${secondScreenBase}exercise.png";
 }

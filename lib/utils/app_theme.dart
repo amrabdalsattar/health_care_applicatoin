@@ -8,11 +8,19 @@ abstract class AppThemes {
   static const TextStyle appDescription =
       TextStyle(fontWeight: FontWeight.w400, fontSize: 16);
 
+  static const TextStyle analytics =
+  TextStyle(fontWeight: FontWeight.w500, fontSize: 14);
+
   static const TextStyle welcomeText =
       TextStyle(fontWeight: FontWeight.w400, fontSize: 20);
 
+  static const TextStyle tabBarContentTitle =
+  TextStyle(fontWeight: FontWeight.w600, fontSize: 20);
+
   static const TextStyle emotionDescription =
   TextStyle(fontWeight: FontWeight.w400, fontSize: 14);
+  static const TextStyle tabBarContentDescription =
+  TextStyle(fontWeight: FontWeight.w400, fontSize: 12);
 
   static const TextStyle exerciseContainer =
   TextStyle(fontWeight: FontWeight.w500, fontSize: 14);
