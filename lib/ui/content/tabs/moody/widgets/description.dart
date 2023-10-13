@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import '../../utils/app_theme.dart';
-import '../../utils/colors.dart';
+import '../../../../../utils/app_theme.dart';
+import '../../../../../utils/colors.dart';
 
 class Description extends StatelessWidget {
   final String leftHand;

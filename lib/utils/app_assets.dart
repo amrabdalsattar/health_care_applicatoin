@@ -15,4 +15,13 @@ abstract class AppAssets {
   static const calender = "${firstScreenBase}Icon-1.png";
   static const profile = "${firstScreenBase}Icon-2.png";
   static const character = "${firstScreenBase}Walking_the_Dog.png";
+
+  static const String secondScreenBase = "assets/images/second_screen/";
+  static const removal = "${secondScreenBase}removal_2.png";
+  static const ellipse = "${secondScreenBase}Ellipse_10.png";
+  static const calo = "${secondScreenBase}Group.png";
+  static const heart = "${secondScreenBase}Icon.png";
+  static const todo = "${secondScreenBase}Icon-1.png";
+  static const duration = "${secondScreenBase}Icon_2.png";
+  static const exercise = "${secondScreenBase}pngwing.png";
 }

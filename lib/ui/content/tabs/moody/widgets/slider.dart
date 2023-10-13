@@ -3,6 +3,8 @@ import 'package:health_care_app/utils/app_assets.dart';
 import 'package:health_care_app/utils/app_theme.dart';
 import 'package:health_care_app/utils/colors.dart';
 
+import 'duration.dart';
+
 class SliderGrid extends StatelessWidget {
   const SliderGrid({super.key});
 
@@ -33,15 +35,7 @@ class SliderGrid extends StatelessWidget {
                   "Boost your mood with positive vibes",
                   style: AppThemes.appDescription,
                 ),
-                Row(
-                  children: [
-                    const Icon(
-                      Icons.play_circle,
-                      color: AppColor.green,
-                    ),
-                    Text("10 mins", style: AppThemes.emotionDescription.copyWith(fontWeight: FontWeight.w500),)
-                  ],
-                )
+                const ContainerDuration()
               ],
             ),
           )),

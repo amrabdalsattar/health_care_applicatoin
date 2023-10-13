@@ -3,24 +3,22 @@ import 'package:health_care_app/utils/app_assets.dart';
 import 'package:health_care_app/utils/app_state_manager.dart';
 import 'package:health_care_app/utils/colors.dart';
 import 'package:provider/provider.dart';
+import '../content/tabs/alice_care/alice_care.dart';
+import '../content/tabs/moody/moody.dart';
+import '../content/tabs/profile.dart';
+import '../content/tabs/workout/workout.dart';
 
-
-import '../moody_content/tabs/calender.dart';
-import '../moody_content/tabs/grid.dart';
-import '../moody_content/tabs/moody_content.dart';
-import '../moody_content/tabs/profile.dart';
-
-class MoodyHomeScreen extends StatelessWidget {
+class HomeScreen extends StatelessWidget {
   List<Widget> tab = [
     const MoodyContent(),
-    const Grid(),
-    const Calender(),
+    const Workout(),
+    const AliceCare(),
     const Profile()
   ];
   static const String routeName = "moody";
   late AppStateManager provider;
 
-  MoodyHomeScreen({super.key});
+  HomeScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -32,7 +30,7 @@ class MoodyHomeScreen extends StatelessWidget {
           backgroundColor: AppColor.transparent,
           elevation: 0,
         ),
-        body: tab[provider.currentIndex],
+        body: tab[1],/// change it to current index
         bottomNavigationBar: buildBottomNav(),
       ),
     );

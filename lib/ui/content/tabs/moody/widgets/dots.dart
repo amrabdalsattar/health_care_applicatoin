@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:health_care_app/utils/colors.dart';
 import 'package:provider/provider.dart';
+import '../../../../../utils/app_state_manager.dart';
 
-import '../../utils/app_state_manager.dart';
 
 class Dots extends StatelessWidget {
   const Dots({super.key});

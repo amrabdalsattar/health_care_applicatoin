@@ -1,16 +1,17 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
-import 'package:health_care_app/moody_content/widgets/description.dart';
-import 'package:health_care_app/moody_content/widgets/dots.dart';
-import 'package:health_care_app/moody_content/widgets/emojies_widget.dart';
-import 'package:health_care_app/moody_content/widgets/exercise.dart';
-import 'package:health_care_app/moody_content/widgets/slider.dart';
+import 'package:health_care_app/ui/content/tabs/moody/widgets/description.dart';
+import 'package:health_care_app/ui/content/tabs/moody/widgets/dots.dart';
+import 'package:health_care_app/ui/content/tabs/moody/widgets/emojies_widget.dart';
+import 'package:health_care_app/ui/content/tabs/moody/widgets/exercise.dart';
+import 'package:health_care_app/ui/content/tabs/moody/widgets/slider.dart';
 import 'package:health_care_app/utils/app_state_manager.dart';
 import 'package:provider/provider.dart';
 
-import '../../../utils/app_assets.dart';
-import '../../../utils/app_theme.dart';
-import '../../../utils/colors.dart';
+import '../../../../utils/app_assets.dart';
+import '../../../../utils/app_theme.dart';
+import '../../../../utils/colors.dart';
+
 
 class MoodyContent extends StatelessWidget {
   const MoodyContent({super.key});
