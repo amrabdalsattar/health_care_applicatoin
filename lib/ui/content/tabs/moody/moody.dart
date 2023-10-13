@@ -96,7 +96,7 @@ class MoodyContent extends StatelessWidget {
             const SizedBox(
               height: 40,
             ),
-            const Description(leftHand: "Features"),
+            const Description(leftHand: "Features", color: AppColor.green),
             CarouselSlider(
               options: CarouselOptions(
                   height:
@@ -113,13 +113,13 @@ class MoodyContent extends StatelessWidget {
               }).toList(),
             ),
             const Dots(),
-            const Description(leftHand: "Exercise"),
+            const Description(leftHand: "Exercise", color: AppColor.green),
             Column(
               children: [
                 Row(
                   children: [
                     Exercise(
-                        color: AppColor.lightPurple,
+                        color: AppColor.litePurple,
                         text: "Relaxation",
                         iconPath: AppAssets.relaxation),
                     const Spacer(),

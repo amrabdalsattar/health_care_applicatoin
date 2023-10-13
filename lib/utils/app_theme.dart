@@ -26,7 +26,7 @@ abstract class AppThemes {
   TextStyle(fontWeight: FontWeight.w500, fontSize: 14);
 
   static const TextStyle seeMoreText =
-  TextStyle(fontWeight: FontWeight.w600, fontSize: 14, color: AppColor.green);
+  TextStyle(fontWeight: FontWeight.w600, fontSize: 14);
   static const TextStyle titles =
   TextStyle(fontWeight: FontWeight.w600, fontSize: 18);
 

@@ -30,7 +30,7 @@ class HomeScreen extends StatelessWidget {
           backgroundColor: AppColor.transparent,
           elevation: 0,
         ),
-        body: tab[2],/// change it to current index
+        body: tab[provider.currentIndex],/// change it to current index
         bottomNavigationBar: buildBottomNav(),
       ),
     );

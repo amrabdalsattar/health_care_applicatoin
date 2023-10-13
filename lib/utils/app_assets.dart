@@ -16,6 +16,7 @@ abstract class AppAssets {
   static const profile = "${firstScreenBase}Icon-2.png";
   static const character = "${firstScreenBase}Walking_the_Dog.png";
 
+  /// SECOND SCREEN ASSETS
   static const String secondScreenBase = "assets/images/second_screen/";
   static const removal = "${secondScreenBase}removal_2.png";
   static const ellipse = "${secondScreenBase}Ellipse_10.png";
@@ -24,4 +25,12 @@ abstract class AppAssets {
   static const todo = "${secondScreenBase}todo.png";
   static const duration = "${secondScreenBase}duration.png";
   static const exercise = "${secondScreenBase}exercise.png";
+
+  /// THIRD SCREEN ASSETS
+  static const String thirdScreenBase = "assets/images/third_screen/";
+  static const doctor = "${thirdScreenBase}doctor.png";
+  static const logo = "${thirdScreenBase}alice_care.png";
+  static const selCare = "${thirdScreenBase}frame1.png";
+  static const cycle = "${thirdScreenBase}frame2.png";
+
 }
