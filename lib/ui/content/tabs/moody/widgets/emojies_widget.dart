@@ -1,5 +1,4 @@
 import 'package:flutter/cupertino.dart';
-import 'package:health_care_app/utils/app_assets.dart';
 import 'package:health_care_app/utils/app_theme.dart';
 
 class Emotion extends StatelessWidget {

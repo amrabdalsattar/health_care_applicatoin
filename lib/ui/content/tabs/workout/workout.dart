@@ -21,8 +21,8 @@ class Workout extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          TopScreen(),
-          SizedBox(
+          const TopScreen(),
+          const SizedBox(
             height: 26,
           ),
           Container(
@@ -44,7 +44,7 @@ class Workout extends StatelessWidget {
                     analyticsNum: "32,5",
                     analyticsType: "%"),
                 verticalWidget,
-                Analytics(
+                const Analytics(
                     iconPath: AppAssets.calo,
                     iconDescription: "Calo",
                     analyticsNum: "1000",
@@ -54,7 +54,7 @@ class Workout extends StatelessWidget {
           ),
           Container(
               margin: EdgeInsets.symmetric(vertical: MediaQuery.of(context).size.height * 0.0317460317460317),
-              child: Text("Workout Program", style: AppThemes.titles,)),
+              child: const Text("Workout Program", style: AppThemes.titles,)),
           const Expanded(child: MyTabBar()),
         ],
       ),

@@ -7,7 +7,7 @@ class HotTopicsSlider extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: EdgeInsets.only(bottom: 24),
+      margin: const EdgeInsets.only(bottom: 24),
       child: SingleChildScrollView(
         scrollDirection: Axis.horizontal,
         child: Row(

@@ -31,7 +31,7 @@ class AliceCare extends StatelessWidget {
                 decoration: InputDecoration(
                     fillColor: AppColor.white,
                     filled: true,
-                    prefixIcon: Icon(Icons.search),
+                    prefixIcon: const Icon(Icons.search),
                     hintText: "Articles, Video, Audio and More,...",
                     border: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(6),

@@ -11,7 +11,7 @@ class SliderGrid extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: EdgeInsets.symmetric(horizontal: 3),
+      margin: const EdgeInsets.symmetric(horizontal: 3),
       width: MediaQuery.of(context).size.width,
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(15),
@@ -21,7 +21,7 @@ class SliderGrid extends StatelessWidget {
         children: [
           Expanded(
               child: Container(
-            margin: EdgeInsets.only(left: 12),
+            margin: const EdgeInsets.only(left: 12),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.stretch,
               mainAxisAlignment: MainAxisAlignment.spaceAround,

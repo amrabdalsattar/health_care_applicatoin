@@ -8,7 +8,7 @@ class ChipGenerator extends StatelessWidget {
   late AppStateManager provider;
   final String title;
 
-  ChipGenerator({Key? key, required this.chipIndex, required this.title});
+  ChipGenerator({super.key, required this.chipIndex, required this.title});
 
   @override
   Widget build(BuildContext context) {
@@ -17,7 +17,7 @@ class ChipGenerator extends StatelessWidget {
     bool isSelected = isSelectedList[chipIndex];
 
     return Container(
-      margin: EdgeInsets.only(right: 10),
+      margin: const EdgeInsets.only(right: 10),
       child: FilterChip(
         backgroundColor: AppColor.litePurple,
         label: Text(title),
